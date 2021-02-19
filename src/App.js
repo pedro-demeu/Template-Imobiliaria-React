@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './App.css';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
@@ -10,7 +11,7 @@ import Login from './Components/Login/Login';
 
 function App() {
     return (
-        <div className="App">
+        <div className={styles.App}>
             <BrowserRouter>
                 <Header />
                 <Routes>
